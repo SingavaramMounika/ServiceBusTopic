@@ -13,8 +13,8 @@ namespace ServiceBusTopic
         static void Main(string[] args)
         {
 
-            string connectionString = "CONNECTIONSTRING";
-            string topicName = "TOPICNAME";
+            string connectionString = "Endpoint=sb://mounika1410.servicebus.usgovcloudapi.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=V+sBe+DxggebCNrdR2nBuDirrbbfL1jMy+ASbJU3JU8=";
+            string topicName = "testtopic";
 
             var namespaceManager =
                 NamespaceManager.CreateFromConnectionString(connectionString);
